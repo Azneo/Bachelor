@@ -1,0 +1,7 @@
+import statsmodels.api as sm
+from statsmodels.tsa.stattools import grangercausalitytests
+import numpy as np
+#Вместо Close и SMA_3 нужно добавить полярность и цену акций
+
+df = df[['Close', 'SMA_3']].pct_change().dropna()
+gc_rec= grangercausalitytests(df, 4, verbose=True)
