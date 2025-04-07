@@ -21,7 +21,7 @@ To get started with the project, follow these steps:
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/sentiment-analysis-stock-comparison.git
+    git clone https://github.com/Azneo/sentiment-analysis-stock-comparison.git
     ```
 
 2. Install the necessary dependencies:
